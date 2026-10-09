@@ -1,0 +1,257 @@
+%%[This page was last updated on Sep 15 2026]%% [**<span class="text-warning">:octicon-eye:</span> indicates those _watching_ the forum** (kudos :+1:)]
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 1. NGUY..KIET `@YoosnK` (3 posts) 
+</div>
+
+
+<panel  popup-url="https://github.com/NUS-CS2113-AY2627-S1/forum/issues/7" expanded>
+<div slot="header">
+
+**1. :fas-info-circle: Clarification on commit tagging for Level-5 and A-Exceptions**
+</div>
+
+<img width="1202" height="319" alt="Image" src="https://github.com/user-attachments/assets/e12fd2d6-03e4-49fc-809e-bd5768b031b9" />
+
+If I've already done error handling since commit 292b2c6 (the commit right after the one tagged Level-3), do I tag that commit as Level-5, or should i tag the newest commit (where i just implemented custom Exceptions) as Level-5 instead?
+
+Personally I think I should tag the older commit since it's when the required changes are implemented, but I just wanted to be sure.
+</panel>
+
+<panel  popup-url="https://github.com/NUS-CS2113-AY2627-S1/forum/issues/3#issuecomment-5350037801" expanded>
+<div slot="header">
+
+**2 :fas-comment:**
+</div>
+
+do not change the code of the main method, you should keep your code like this
+
+'''java
+public class Main ``{``
+    
+    public static double getGradeCap(String grade) ``{``
+        // ADD YOUR CODE HERE
+    ``}``
+    
+    public static void main(String[] args) ``{``
+        System.out.println("A+: " + getGradeCap("A+"));
+        System.out.println("B : " + getGradeCap("B"));
+    ``}``
+``}``
+'''
+
+you should only change the code inside the getGradeCap method, which should return a `double` when inputted a `String`
+</panel>
+
+<panel  popup-url="https://github.com/NUS-CS2113-AY2627-S1/forum/issues/7#issuecomment-5570264758" expanded>
+<div slot="header">
+
+**3 :fas-comment:**
+</div>
+
+Well, since Level-5 and A-Exceptions are separated, I thought that error handling didn't need Exceptions, and that it's just realizing there are possible errors, prevent them from stopping the program from running, and printing error messages.
+
+I guess since A-Exceptions is a subtask of Level-5, the Level-5 tag should be the same commit or a later commit than A-Exceptions
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 2. MAIG..ILLE `@camimaigrot` (3 posts) 
+</div>
+
+
+<panel  popup-url="https://github.com/NUS-CS2113-AY2627-S1/forum/issues/4" expanded>
+<div slot="header">
+
+**1. :fas-info-circle: Anyone wants to form a group?**
+</div>
+
+I'm looking for people to pair up for the team project! Goal is to get an A. Feel free to contact me, my telegram handle is @camcamouflage.
+</panel>
+
+<panel  popup-url="https://github.com/NUS-CS2113-AY2627-S1/forum/issues/1" expanded>
+<div slot="header">
+
+**2. :fas-info-circle: Which Java version??**
+</div>
+
+Hello, I was wondering which version of Java we were going to use for the iP since it is said on the course website that we would be using Java 17 but in class the Prof mentioned we would only be using Java 25.
+</panel>
+
+<panel  popup-url="https://github.com/NUS-CS2113-AY2627-S1/forum/issues/1#issuecomment-5308178030" expanded>
+<div slot="header">
+
+**3 :fas-comment:**
+</div>
+
+My bad, was on the website from previous semester :-||
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 3. CAO ..YUAN `@littlecrawler` (3 posts) 
+</div>
+
+
+<panel  popup-url="https://github.com/NUS-CS2113-AY2627-S1/forum/issues/8" expanded>
+<div slot="header">
+
+**1. :fas-info-circle: Does the order of Level and extension tags matter?**
+</div>
+
+ Hi, I would like to clarify the expected tag order when a Level has a required extension.
+
+  For example, for Level-4 and A-Inheritance, should we:
+
+  1. tag the working non-inheritance implementation as Level-4, then implement inheritance and tag it as A-Inheritance; or
+  2. complete and tag A-Inheritance first, then tag a later commit as Level-4, so the Level-4 state includes the required extension?
+
+Does the order of a Level tag and its required extension tag matter, or can we place them in either order as long as both increments are completed and tagged correctly?
+
+</panel>
+
+<panel  popup-url="https://github.com/NUS-CS2113-AY2627-S1/forum/issues/6" expanded>
+<div slot="header">
+
+**2. :fas-info-circle: Clarification on commits and tags for iP increments**
+</div>
+
+ Hi Prof/Teaching Team, I would like to clarify the expected commit and tag workflow for an iP increment.
+
+  If an increment is completed through several logical commits, should we squash them into one commit and tag that commit, or keep the commits
+  separate and place the increment tag only on the final commit that first completes all requirements?
+
+  In the latter case, are the earlier commits since the previous increment tag considered part of the same increment?
+
+  Thank you!
+</panel>
+
+<panel  popup-url="https://github.com/NUS-CS2113-AY2627-S1/forum/issues/5" expanded>
+<div slot="header">
+
+**3. :fas-info-circle: Clarification on updating an earlier increment after tagging it**
+</div>
+
+Hi Prof/Teaching Team,
+
+I would like to clarify how updates to earlier increments should be handled.
+
+Suppose I complete Level-1, tag the corresponding commit as Level-1, and push both the code and tag. While working on Level-2, I later improve or modify some functionality originally implemented for Level-1. I then complete the Level-2 requirements and tag the latest cumulative version as Level-2.
+
+Could you please clarify:
+
+Is it acceptable for the Level-2 version to contain both improvements to Level-1 functionality and the new Level-2 functionality?
+
+Should the existing Level-1 tag remain pointing to the original Level-1 completion commit?
+
+If the later change fixes a missing Level-1 requirement rather than being an optional improvement, should the pushed Level-1 tag be updated, or should it remain unchanged?
+
+Thank you!
+
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 4. TAN ..IANG `@yongxiang22` (2 posts) 
+</div>
+
+
+<panel  popup-url="https://github.com/NUS-CS2113-AY2627-S1/forum/issues/3" expanded>
+<div slot="header">
+
+**1. :fas-info-circle: Week 2 Ex 3 (not sure how the input values work)**
+</div>
+
+Used Intellij to try
+
+public class GradeHelper ``{``
+
+    public static void main(String[] args) ``{``
+
+            String grade = "B";
+            double cap = 0;
+            switch (grade) ``{``
+                case "A+":
+                case "A":
+                    cap = 5.0;
+                    break;
+                case "A-":
+                    cap = 4.5;
+                    break;
+                case "B+":
+                    cap = 4.0;
+                    break;
+                case "B":
+                    cap = 3.5;
+                    break;
+                case "B-":
+                    cap = 3.0;
+                    break;
+                case "C":
+                    cap = 2.5;
+                    break;
+                default:
+                    cap = 0;
+                    break;
+            ``}``
+            System.out.printf(grade+cap);
+        ``}``
+
+``}``
+
+Was able to get an output of B3.5
+
+However, once i changed the grade to grade = args[0], i am not able to pass the test cases. 
+My filename is GradeHelper
+
+
+
+
+</panel>
+
+<panel  popup-url="https://github.com/NUS-CS2113-AY2627-S1/forum/issues/2" expanded>
+<div slot="header">
+
+**2. :fas-info-circle: Issues with  setting up link with for github with my laptop**
+</div>
+
+Windows 11 Laptop setup, I have already added the SSH key into my github.
+
+I managed to get the below text after keying ssh -T git@github.com
+
+Hi yongxiang22! You've successfully authenticated, but GitHub does not provide shell access.
+
+However, i tried to do:
+eval "$(ssh-agent -s)"
+
+I got the below error
+eval : The term 'eval' is not recognized as the name of a cmdlet, function, script file, or operable program. Check
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ eval "$(ssh-agent -s)"
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (eval:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+I am not sure what would be a windows equivilant to set this up, and also not sure if i have properly  set everything up
+
+
+``
+</panel>
+
+</panel>
